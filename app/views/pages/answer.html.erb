@@ -1,0 +1,18 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+<div class = "borderleft">
+  <div class="m-3">
+    <%= @query %>
+    <p class="em">- You</p>
+  </div>
+</div>
+
+<div class="borderleft bcolor">
+<div class="m-3">
+  <strong><%= @coach_answer %></strong>
+  <p class="em"> -Your Coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask a new question", home_path, class: "text-deco" %>
+</div>
